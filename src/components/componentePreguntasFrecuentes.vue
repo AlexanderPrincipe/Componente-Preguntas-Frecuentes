@@ -24,11 +24,11 @@
             </b-col>
             <b-col cols="12" lg="8" md="12" sm="12" class="pl-0 pr-0">
               <div id="section_breadcrumb">
-                <div>
+                <div class="d-flex align-items-center">
                   <b-breadcrumb-item style="display:inline-block;" :to="rutaPrincipal">
                     <img src="@/static/media/icons/PathCopy3.png" style="width:8px; " />
                   </b-breadcrumb-item>
-                  <router-link>
+                  <router-link :to="rutaPrincipal">
                     <span class="linkprincipal">Principal</span>
                   </router-link>
                   <span style="padding-right:6px;">›</span>
@@ -221,6 +221,7 @@ export default {
   line-height: 24px;
   width: 550px;
   text-align: left;
+  font-family: "Omnes Medium";
 }
 
 .lista2pf {
@@ -230,6 +231,7 @@ export default {
   line-height: 24px;
   width: 550px;
   text-align: left;
+  font-family: "Omnes Semibold";
 }
 
 .linea {
@@ -495,15 +497,17 @@ img.icon-cont {
     line-height: 20px;
     padding-left: 20px;
     width: 90%;
+    font-family: "Omnes Medium";
   }
 
   .lista2pf {
     color: #0754c4;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 20px;
     padding-left: 20px;
     width: 90%;
+    font-family: "Omnes Semibold";
   }
 
   #section_preguntas {
@@ -547,6 +551,7 @@ img.icon-cont {
     line-height: 20px;
     padding-left: 20px;
     width: 90%;
+    font-family: "Omnes Medium";
   }
 
   .lista2pf {
@@ -556,6 +561,7 @@ img.icon-cont {
     line-height: 20px;
     padding-left: 20px;
     width: 90%;
+    font-family: "Omnes Semibold";
   }
 
   #section_preguntas {
